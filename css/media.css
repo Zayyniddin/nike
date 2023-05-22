@@ -1,0 +1,28 @@
+@media screen and (max-width:1140px) {
+    .collection__wrap {
+        flex-direction: column;
+        transform: translateY(0);
+    }
+    .collection__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .footer__wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .banner {
+        background: url(../img/banner.png) no-repeat right center/cover;
+    }
+    .header__nav {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .nav__list {
+        flex-direction: column;
+    }
+}
